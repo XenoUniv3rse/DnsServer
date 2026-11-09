@@ -1,3 +1,6 @@
+﻿> **Fork note:** this fork ships a modernised web console (sidebar navigation, refreshed light / dark / amber themes, responsive layout, bundled Inter font) as a pure CSS/JS layer over the upstream UI — all upstream features and APIs are unchanged.
+> Image: `ghcr.io/xenouniv3rse/technitium-dns:latest` (linux/amd64, linux/arm64) — drop-in replacement for `technitium/dns-server`.
+
 <p align="center">
 	<a href="https://technitium.com/dns/">
 		<img src="https://technitium.com/img/logo.png" alt="Technitium DNS Server" /><br />

@@ -23,6 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <meta charset="utf-8" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Technitium DNS Server</title>
 
@@ -38,8 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <script src="js/moment.min.js"></script>
 
     <link href="css/main.css" rel="stylesheet" />
-    <link href="css/dark-mode.css" rel="stylesheet" />
-    <link href="css/amber-mode.css" rel="stylesheet" />
+    <link href="css/modern.css" rel="stylesheet" />
 
     <script src="js/common.js"></script>
     <script src="js/main.js"></script>
@@ -51,6 +51,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <script src="js/dnsclient.js"></script>
     <script src="js/dhcp.js"></script>
     <script src="js/logs.js"></script>
+    <script src="js/modern.js"></script>
 </head>
 <body>
     <div id="header">
@@ -144,7 +145,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
                     <div class="panel-body" style="min-height: 500px;">
                         <div>
-                            <ul class="nav nav-tabs" role="tablist">
+                            <ul class="nav nav-tabs main-nav" role="tablist">
                                 <li id="mainPanelTabListDashboard" role="presentation" class="active"><a href="#mainPanelTabPaneDashboard" aria-controls="mainPanelTabPaneDashboard" role="tab" data-toggle="tab" onclick="refreshDashboard();">Dashboard</a></li>
                                 <li id="mainPanelTabListZones" role="presentation"><a href="#mainPanelTabPaneZones" aria-controls="mainPanelTabPaneZones" role="tab" data-toggle="tab" onclick="refreshZones(true);">Zones</a></li>
                                 <li id="mainPanelTabListCachedZones" role="presentation"><a href="#mainPanelTabPaneCachedZones" aria-controls="mainPanelTabPaneCachedZones" role="tab" data-toggle="tab">Cache</a></li>
